@@ -1,0 +1,84 @@
+# FocusPulse Elite - The Ultimate Masterpiece Productivity Analytics Platform
+# Built with ❤️ by Hajrah Saleha Kazi
+# LinkedIn: https://linkedin.com/in/hajrah-saleha-kazi
+
+# === CORE DEPENDENCIES ===
+# Data processing and analysis
+pandas>=1.5.0
+numpy>=1.21.0
+
+# Data visualization and plotting
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# System monitoring and process tracking
+psutil>=5.8.0
+
+# Machine Learning (for AI insights)
+scikit-learn>=1.0.0
+
+# === PLATFORM-SPECIFIC DEPENDENCIES ===
+# Windows-specific libraries for window tracking
+pywin32>=304; platform_system=="Windows"
+
+# Cross-platform input monitoring
+pynput>=1.7.0
+
+# === OPTIONAL ENHANCED FEATURES ===
+# Advanced data export formats
+openpyxl>=3.0.0
+xlsxwriter>=3.0.0
+
+# Enhanced plotting capabilities
+plotly>=5.0.0
+
+# Configuration management
+pyyaml>=6.0
+
+# Logging enhancements
+colorlog>=6.0.0
+
+# === DEVELOPMENT DEPENDENCIES (Optional) ===
+# Testing framework
+pytest>=6.0.0
+pytest-cov>=2.0.0
+
+# Code formatting
+black>=21.0.0
+isort>=5.0.0
+
+# Code linting
+flake8>=3.8.0
+pylint>=2.12.0
+
+# Type checking
+mypy>=0.910
+
+# === BUILD DEPENDENCIES (Optional) ===
+# For creating standalone executables
+pyinstaller>=4.0
+cx-freeze>=6.0
+
+# === DOCUMENTATION (Optional) ===
+# Documentation generation
+sphinx>=4.0.0
+sphinx-rtd-theme>=1.0.0
+
+# === COMPATIBILITY NOTES ===
+# Python version requirement: >=3.8
+# Tested on: Windows 10/11, macOS 12+, Ubuntu 20.04+
+# GUI Framework: tkinter (built-in with Python)
+
+# === INSTALLATION NOTES ===
+# For basic functionality, only the CORE DEPENDENCIES are required
+# Platform-specific dependencies will install automatically based on your OS
+# Optional dependencies provide enhanced features but are not required for basic operation
+
+# === QUICK INSTALL COMMAND ===
+# pip install -r requirements.txt
+
+# === MINIMAL INSTALL (Core only) ===
+# pip install pandas numpy matplotlib seaborn psutil scikit-learn
+
+# === FULL INSTALL (All features) ===
+# pip install -r requirements.txt --user
